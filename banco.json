@@ -1,0 +1,49 @@
+{
+  "bancodetalentos": [
+    {
+      "titulo": "ESTAGIÁRIO(A) EM TI",
+      "QuantidaDeVagas": 1,
+      "localizacao": {
+        "cidade": "Rio de Janeiro - Centro",
+        "estado": "RJ"
+      },
+      "infoExtra": "<strong>Bolsa:</strong> R$ 800,00",
+      "requisitos": [
+        "- Cursando Ensino Superior em Tecnologia da Informação;",
+        "- Conhecimento básico em redes e suporte;",
+        "- Proatividade e interesse em aprender;"
+      ],
+      "link": "https://forms.gle/link_estagio_ti"
+    },
+    {
+      "titulo": "ESTAGIÁRIO(A) ADMINISTRATIVO(A)",
+      "QuantidaDeVagas": 2,
+      "localizacao": {
+        "cidade": "Belo Horizonte - Savassi",
+        "estado": "MG"
+      },
+      "infoExtra": "<strong>Bolsa:</strong> R$ 900,00",
+      "requisitos": [
+        "- Cursando Administração ou áreas correlatas;",
+        "- Conhecimentos básicos em Excel e Word;",
+        "- Boa comunicação e organização;"
+      ],
+      "link": "https://forms.gle/link_estagio_adm"
+    },
+    {
+      "titulo": "ESTAGIÁRIO(A) DE MARKETING DIGITAL",
+      "QuantidaDeVagas": 1,
+      "localizacao": {
+        "cidade": "São Paulo - Vila Madalena",
+        "estado": "SP"
+      },
+      "infoExtra": "<strong>Bolsa:</strong> R$ 850,00",
+      "requisitos": [
+        "- Cursando Marketing, Publicidade ou áreas correlatas;",
+        "- Familiaridade com redes sociais e ferramentas de marketing digital;",
+        "- Criatividade e vontade de aprender;"
+      ],
+      "link": "https://forms.gle/link_estagio_marketing"
+    }
+  ]
+}

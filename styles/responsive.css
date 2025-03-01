@@ -1,0 +1,202 @@
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+/* Mostra o ícone do menu em telas pequenas */
+.hamburger {
+  display: block;
+}
+
+/* Esconde os links horizontais por padrão */
+.menu {
+  display: block;
+  position: fixed;
+  top: 80px; /* Ajuste para ficar abaixo da navbar */
+  right: 0;
+  background-color: #ffffff;
+  width: 100%;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  box-shadow: -2px 2px 5px rgba(0,0,0,0.3);
+  border-radius: 0 0 0 8px;
+  margin-bottom: 8rem;
+}
+
+.menu li {
+  text-align: center;
+  padding: 8px;
+  margin: 1rem 0;
+}
+
+/* Quando o checkbox estiver marcado, exibe o menu */
+#menu-toggle:checked + .hamburger + .menu {
+  transform: translateX(0);
+}
+
+  /* Chamada e Header */
+  .chamada {
+    font-size: 22px;
+  }
+
+  #inicio img {
+    margin-top: 7rem;
+    background: url("/assets/header-mobile.jpg") center/cover no-repeat;
+    height: auto;
+  }
+  
+  /* Containers e Cards */
+  #vagas-container,
+  #banco-container {
+    margin: 0 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 91%;
+    margin: 10px 0;
+  }
+
+  .card h2 {
+    font-size: 1.2em;
+  }
+
+  .card ul {
+    font-size: 0.9rem;
+  }
+
+  .card li {
+    margin-top: 10px;
+  }
+  
+  /* Botões e Links */
+  .btn {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .linkBtn a {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
+  .linkBtn a > i,
+  .linkBtn .btnwha > i {
+    margin: 5px;
+    font-size: 1.3rem;
+  }
+
+  .btnwha #whatsappdBtn {
+    font-size: 1.2rem;
+  }
+
+  .lbl-toggle {
+    font-size: 14px;
+    padding: 0.4rem;
+  }
+
+  .collapsible-content {
+    padding: 10px;
+  }
+  
+  /* CTA e Footer */
+  .cta {
+    font-size: 0.5rem;
+    height: auto;
+    padding: 15px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-left img {
+    width: 12rem;
+  }
+
+  .footer-center,
+  .footer-right {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* Containers e Cards */
+  #vagas-container,
+  #banco-container {
+    margin: 0;
+    padding: 0 10px;
+  }
+  .card {
+    width: 91%;
+    padding: 20px;
+  }
+  .card h2 {
+    font-size: 1.1em;
+  }
+  .card ul {
+    font-size: 0.8rem;
+  }
+  
+  /* Seções Banco/Vagas */
+  .banco {
+    margin: 35px 0 20px auto;
+  }
+  .bancoD,
+  .vagasD {
+    margin: 35px 0 20px auto;
+    text-align: center;
+  }
+  .bancoD,  .chamada {
+    padding: 0 20px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .text-banco, .text-chamada {
+    font-size: 1rem;
+    padding: 21px;
+    text-align: start;
+  }
+  
+  /* Botões e Links */
+  .btn {
+    padding: 6px 10px;
+  }
+  .btn,
+  .btnwha {
+    font-size: 14px;
+  }
+  .linkBtn {
+    flex-direction: column;
+  }
+  .linkBtn i {
+    font-size: 0.9rem;
+  }
+  .lbl-toggle {
+    font-size: 12px;
+    padding: 0.3rem;
+  }
+  
+  /* CTA e Footer */
+  .cta {
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+  .footer-left img {
+    width: 15rem;
+    margin-bottom: 30px;
+  }
+  .footer-center a {
+    font-size: 15px;
+  }
+  .footer-right p {
+    font-size: 15px;
+    margin: 10px;
+  }
+  .footer-bottom {
+    font-size: 12px;
+  }
+}

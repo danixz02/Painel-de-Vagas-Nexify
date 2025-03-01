@@ -1,0 +1,87 @@
+{
+  "vagas": [
+    {
+      "titulo": "TÉCNICO DE INSTALAÇÃO DE INTERNET",
+      "QuantidaDeVagas": 2,
+      "localizacao": {
+        "cidade": "São Paulo - Centro",
+        "estado": "SP"
+      },
+      "requisitos": [
+        "- Ensino técnico em Redes de Computadores ou áreas correlatas;",
+        "- Experiência em instalação e manutenção de redes;",
+        "- Conhecimento em cabeamento estruturado;",
+        "- Disponibilidade para viagens;",
+        "- Boa comunicação e relacionamento;",
+        "- CNH categoria B."
+      ],
+      "link": "https://forms.gle/link_tecnico_instalacao"
+    },
+    {
+      "titulo": "SUPORTE TÉCNICO DE INTERNET",
+      "QuantidaDeVagas": 3,
+      "localizacao": {
+        "cidade": "Rio de Janeiro - Copacabana",
+        "estado": "RJ"
+      },
+      "requisitos": [
+        "- Ensino médio completo;",
+        "- Experiência em atendimento técnico;",
+        "- Conhecimento em Windows, Linux e Mac OS;",
+        "- Habilidade em resolução de problemas de conectividade;",
+        "- Disponibilidade para plantões;",
+        "- Boa comunicação."
+      ],
+      "link": "https://forms.gle/link_suporte_tecnico"
+    },
+    {
+      "titulo": "ANALISTA DE REDES",
+      "QuantidaDeVagas": 1,
+      "localizacao": {
+        "cidade": "Belo Horizonte - Savassi",
+        "estado": "MG"
+      },
+      "requisitos": [
+        "- Ensino superior completo em Redes de Computadores, Engenharia da Computação ou áreas relacionadas;",
+        "- Experiência em monitoramento e manutenção de redes;",
+        "- Certificações Cisco, CCNA ou similares são desejáveis;",
+        "- Capacidade de trabalhar em equipe;",
+        "- Proatividade e organização."
+      ],
+      "link": "https://forms.gle/link_analista_redes"
+    },
+    {
+      "titulo": "GERENTE DE OPERAÇÕES",
+      "QuantidaDeVagas": 1,
+      "localizacao": {
+        "cidade": "Curitiba - Centro",
+        "estado": "PR"
+      },
+      "requisitos": [
+        "- Ensino superior completo em Administração ou áreas correlatas;",
+        "- Experiência comprovada em gestão de equipes;",
+        "- Habilidade em liderança e comunicação;",
+        "- Conhecimento no setor de provedores de internet é um diferencial;",
+        "- Disponibilidade para viagens."
+      ],
+      "link": "https://forms.gle/link_gerente_operacoes"
+    },
+    {
+      "titulo": "DESENVOLVEDOR WEB",
+      "QuantidaDeVagas": 2,
+      "localizacao": {
+        "cidade": "Porto Alegre - Moinhos de Vento",
+        "estado": "RS"
+      },
+      "requisitos": [
+        "- Experiência com HTML, CSS e JavaScript;",
+        "- Conhecimento em frameworks modernos (React, Angular, Vue);",
+        "- Experiência com desenvolvimento e manutenção de portais;",
+        "- Conhecimento em APIs e integrações;",
+        "- Habilidade de trabalhar em equipe;",
+        "- Proatividade e comprometimento."
+      ],
+      "link": "https://forms.gle/link_desenvolvedor_web"
+    }
+  ]
+}

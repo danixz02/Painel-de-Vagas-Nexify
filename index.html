@@ -1,0 +1,122 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icon page -->
+    <link rel="shortcut icon" href="assets/logo-icon.svg" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/card.css" />
+    <link rel="stylesheet" href="styles/vagas.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Vagas Dísponiveis - Nexify</title>
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">
+          <!-- Ajuste o caminho do src da imagem conforme necessário -->
+          <a href="#">
+            <img src="assets/logo.svg" alt="Nexify" />
+          </a>
+        </div>
+  
+        <!-- ÍCONE DE MENU (HAMBÚRGUER) PARA MOBILE -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+  
+        <!-- LINKS DE NAVEGAÇÃO -->
+        <ul class="menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#vagas">Vagas Disponíveis</a></li>
+          <li><a href="#bancoDeTalentos">Banco de Talentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="imgHeader" id="inicio">
+      <picture>
+        <img id="img" src="assets/header.jpg" alt="" />
+      </picture>
+    </div>
+
+    <p class="chamada">
+      Faça Parte da <span class="color"><strong>Nexify</strong></span>
+
+      
+    <p class="text-chamada">
+      Venha fazer parte do nosso time! Na Nexify, valorizamos talentos que querem crescer e inovar.<br>
+      <strong>Confira nossas oportunidades e junte-se a nós!</strong>
+    </p>
+    </p>
+
+    <h1 class="vagasD" id="vagas">Vagas Disponíveis</h1>
+
+    <section class="vagas">
+      <div id="vagas-container"></div>
+    </section>
+
+    <span class="colorBanc" id="bancoDeTalentos">
+      <h1 class="bancoD">Faça parte do nosso Banco de Talentos</h1>
+
+      <p class="text-banco">
+        Cadastre seu currículo e tenha a oportunidade de fazer parte da nossa equipe.<br>
+        Estamos sempre em busca de profissionais talentosos e apaixonados pelo que fazem.
+      </p>
+    </span>
+
+    <section class="banco">
+      <div id="banco-container"></div>
+    </section>
+
+    <span class="colorBanc">
+      <h1 class="cta">Venha fazer parte da família Nexify</h1>
+    </span>
+
+    <footer  id="contato">
+      <div class="footer-left">
+        <img src="./assets/logo.svg" alt="Nexify Logo" />
+      </div>
+      <div class="footer-center">
+        <h3>EXPLORE</h3>
+        <a href="#vagas-container"><i class="fa-solid fa-house"></i> HOME</a>
+        <a href="#bancoDeTalentos"
+          ><i class="fa-solid fa-award"></i> Banco de Talentos</a
+        >
+      </div>
+      <div class="footer-right">
+        <p>
+          <i class="fa-solid fa-envelope"></i> <strong>E-MAIL</strong><br /><a
+            href="mailto:rh@nexify.com.br<"
+            >rh@nexify.com.br</a
+          >
+        </p>
+
+        <p>
+          <i class="fa-solid fa-phone"></i> <strong>CONTATO</strong><br />(27) 98902-5190
+        </p>
+      </div>
+    </footer>
+    <div class="footer-bottom">
+      Nexify– Todos os direitos reservados – 2025
+    </div>
+
+    <!-- Script.js -->
+    <script src="script.js"></script>
+  </body>
+</html>
