@@ -84,8 +84,8 @@ function renderCards(cards, containerId, collapsiblePrefix = "", whatsappMsgPref
       <div class="contatos">
         <p><strong>Contatos:</strong></p>
         <i class="fa-solid fa-envelope"></i>
-        <a href="mailto:rh@nexify.com.br<">rh@nexify.com.br<</a><br>
-        <p><i class="fa-solid fa-phone"></i> (27) 98902-5190</p>
+        <a href="mailto:rh@nexify.com.br<">rh@nexify.com.br</a><br>
+        <p><i class="fa-solid fa-phone"></i> (27) 98902-5190 </p>
       </div>
 
       <div class="linkBtn">
